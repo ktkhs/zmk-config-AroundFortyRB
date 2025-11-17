@@ -48,10 +48,10 @@
 
         Mac-Default_Layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                           &kp Y        &kp U        &kp I      &kp O       &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G                           &kp H        &kp J        &kp K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp DOUBLE_QUOTES  &kp N        &kp M        &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LANGUAGE_1  &lt 4 SPACE  &lt 6 LANGUAGE_2   &lt 6 ENTER  &kp AT_SIGN  &kp RCTRL  &lt 7 HASH  &kp SLASH
+&kp Q             &kp W         &kp E         &kp R             &kp T                              &kp Y        &kp U        &kp I                &kp O       &kp P
+&kp A             &kp S         &kp D         &kp F             &kp G                              &kp H        &kp J        &kp K                &kp L       &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp DOUBLE_QUOTES     &kp N        &kp M        &kp COMMA            &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LANGUAGE_1  &lt 4 SPACE  &mt LCTRL LANGUAGE_2  &lt 6 ENTER  &kp AT_SIGN  &mt RCTRL BACKSPACE  &lt 7 HASH  &kp SLASH
             >;
         };
 
@@ -88,10 +88,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp TAB   &trans  &kp END  &trans     &trans            &trans         &trans    &trans    &trans    &kt UP
-&kp HOME  &trans  &trans   &kp RIGHT  &trans            &kp BACKSPACE  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans    &trans  &trans   &trans     &kp LEFT  &trans  &kp DOWN       &trans    &trans    &trans    &trans
-&trans    &trans  &trans   &trans     &trans    &trans  &kp LS(ENTER)  &trans    &trans    &trans    &kp END
+&kp TAB   &trans  &kp END     &trans     &trans            &trans         &trans    &trans    &trans    &kt UP
+&kp HOME  &trans  &kp DELETE  &kp RIGHT  &trans            &kp BACKSPACE  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans    &trans  &trans      &trans     &kp LEFT  &trans  &kp DOWN       &trans    &trans    &trans    &trans
+&trans    &trans  &trans      &trans     &trans    &trans  &kp LS(ENTER)  &trans    &trans    &trans    &kp END
             >;
 
             sensor-bindings = <&scroll_up_down>;
