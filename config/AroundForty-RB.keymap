@@ -111,8 +111,8 @@
         Num_Layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &trans          &trans        &trans  &trans        &trans        &trans
-&kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans  &trans  &trans        &trans  &trans        &trans        &trans
+&trans        &trans        &trans        &trans        &trans          &trans        &trans  &trans        &trans        &trans
+&trans        &trans        &trans        &trans        &trans  &trans  &trans        &trans  &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans  &trans  &trans        &trans  &trans        &trans        &trans
             >;
         };
