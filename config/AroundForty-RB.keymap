@@ -66,10 +66,10 @@
 
         Mac-Function_Layer {
             bindings = <
-&kp F1         &kp F2            &kp F3       &kp F4       &kp F5                &kp F6                &kp F7                 &kp F8           &kp F9         &kp F10
-&kp TAB        &kp LEFT_GUI      &kp LS(TAB)  &mkp MB1     &mkp MB2              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND  &kp DOUBLE_QUOTES
-&kp LESS_THAN  &kp GREATER_THAN  &kp CARET    &kp PERCENT  &kp DOLLAR  &trans    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION   &kp SQT
-&trans         &trans            &trans       &trans       &trans      &mkp MB1  &trans                &kp COLON              &trans           &kp BACKSLASH  &kp HASH
+&kp F1            &kp F2             &kp F3                &kp F4         &kp F5                  &kp F6     &kp F7         &kp F8         &kp F9                &kp F10
+&kp EXCLAMATION   &kp AT             &kp HASH              &kp DLLR       &kp PERCENT             &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp SQT      &kp GRAVE  &kp EQUAL  &kp MINUS      &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION
+&trans            &trans             &trans                &trans         &trans       &mkp MB1   &trans     &kp COLON      &trans         &kp BACKSLASH         &kp HASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
