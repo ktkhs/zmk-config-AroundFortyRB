@@ -10,17 +10,11 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+    tapping-term-ms = <250>;
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        ctrl {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <34 35>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
