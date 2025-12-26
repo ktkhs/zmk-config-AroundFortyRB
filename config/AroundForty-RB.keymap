@@ -56,7 +56,7 @@
         Mac-Default_Layer {
             bindings = <
 &kp Q             &kp W           &kp E              &kp R        &kp T                           &kp Y             &kp U                  &kp I            &kp O       &kp P
-&kp A             &mt LEFT_ALT S  &mt RIGHT_SHIFT D  &mt LCTRL F  &kp G                           &kp H             &kp J                  &kp K            &kp L       &kp SEMICOLON
+&kp A             &mt LEFT_ALT S  &mt RIGHT_SHIFT D  &mt LCTRL F  &kp G                           &kp H             &kp J                  &kp K            &kp L       &kp ENTER
 &mt LEFT_SHIFT Z  &kp X           &kp C              &kp V        &kp B        &kp DOUBLE_QUOTES  &kp N             &kp M                  &kp COMMA        &kp PERIOD  &mt RIGHT_SHIFT MINUS
 &mt LCTRL ESCAPE  &kp LEFT_WIN    &kp LEFT_ALT       &lt 1 SPACE  &lt 2 SPACE  &lt 3 LANGUAGE_2   &lt 3 LANGUAGE_1  &mt RIGHT_GUI AT_SIGN  &mt RCTRL ENTER  &lt 4 HASH  &kp SLASH
             >;
@@ -67,7 +67,7 @@
 &kp F1            &kp F2             &kp F3                &kp F4         &kp F5                  &kp F6     &kp F7         &kp F8         &kp F9                &kp F10
 &kp EXCLAMATION   &kp AT             &kp HASH              &kp DLLR       &kp PERCENT             &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp SQT      &kp GRAVE  &kp EQUAL  &kp MINUS      &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION
-&trans            &trans             &trans                &trans         &trans       &trans     &trans     &kp COLON      &trans         &trans                &trans
+&trans            &trans             &trans                &trans         &trans       &trans     &trans     &kp COLON      &trans         &trans                &kp SEMICOLON
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -75,10 +75,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp TAB   &trans  &kp END     &trans     &trans            &trans         &trans  &trans         &trans  &kt UP
-&kp HOME  &trans  &kp DELETE  &kp RIGHT  &trans            &kp BACKSPACE  &trans  &trans         &trans  &trans
-&trans    &trans  &trans      &trans     &kp LEFT  &trans  &kp DOWN       &trans  &trans         &trans  &trans
-&trans    &trans  &trans      &trans     &trans    &trans  &trans         &trans  &kp RS(ENTER)  &trans  &trans
+&kp TAB   &trans  &kp END     &trans     &trans            &trans         &trans  &trans  &trans  &kt UP
+&kp HOME  &trans  &kp DELETE  &kp RIGHT  &trans            &kp BACKSPACE  &trans  &trans  &trans  &kp LS(ENTER)
+&trans    &trans  &trans      &trans     &kp LEFT  &trans  &kp DOWN       &trans  &trans  &trans  &trans
+&trans    &trans  &trans      &trans     &trans    &trans  &trans         &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
