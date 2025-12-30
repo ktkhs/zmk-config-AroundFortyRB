@@ -10,7 +10,6 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
-    tapping-term-ms = <350>;
 };
 
 / {
@@ -76,10 +75,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp TAB   &trans  &kp END     &trans     &trans            &trans         &trans  &trans  &trans  &kt UP
-&kp HOME  &trans  &kp DELETE  &kp RIGHT  &trans            &kp BACKSPACE  &trans  &trans  &trans  &kp LS(ENTER)
-&trans    &trans  &trans      &trans     &kp LEFT  &trans  &kp DOWN       &trans  &trans  &trans  &trans
-&trans    &trans  &trans      &trans     &trans    &trans  &trans         &trans  &trans  &trans  &trans
+&kp TAB    &trans     &kp END     &trans     &trans            &trans         &trans  &trans  &trans  &kt UP
+&kp HOME   &trans     &kp DELETE  &kp RIGHT  &trans            &kp BACKSPACE  &trans  &trans  &trans  &kp LS(ENTER)
+&kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp LEFT  &trans  &kp DOWN       &trans  &trans  &trans  &trans
+&trans     &trans     &trans      &trans     &trans    &trans  &trans         &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
